@@ -1,0 +1,534 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+
+  <title>Integrações Millennium em marketplaces</title>
+  <link rel="shortcut icon" href="/assets/PlugplayHub.ico" type="image/x-icon">
+  <link rel="icon" href="/assets/favicon.ico" />
+  
+
+  <meta name="description" content="HUB de integração entre e-Millennium, sites e marketplaces, como Dafiti, NetoShoes, PostHaus, ShopPub e Mercado Livre.">
+
+  <meta property="og:title" content="Integrações Millennium com marketplaces">
+  <meta property="og:description" content="HUB de integração entre e-Millennium, sites e marketplaces, como Dafiti, NetoShoes, PostHaus, ShopPub e Mercado Livre.">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://plugplayhub.com.br/integracoes">
+
+
+  <!--
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+   -->
+
+  <!-- ler o icone em awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- estava no final... preciso entender sua utilidade -->
+  <!--
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  -->
+
+  <!-- Favicon-->
+  <link rel="icon" type="image/x-icon" href="assets/favicon.png" />
+  <!-- Bootstrap Icons-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+  <!-- Google fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic"
+    rel="stylesheet" type="text/css" />
+  <!-- SimpleLightbox plugin CSS-->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
+  <!-- Core theme CSS (includes Bootstrap)-->
+  <link href="css/styles.css" rel="stylesheet" />
+
+ 
+
+  <!-- 
+  <link rel="icon" type="image/png" href="https://yata2.s3-object.locaweb.com.br/6b1dc6742f5878b49a6e266e422e664da3c170e27b1150bd61f93228a76ff7cd">
+  
+  -->
+
+</head>
+
+<!--<body class="p-4 m-0 border-0 bd-example m-0 border-0">   p-4 define espaçamento -->
+
+<body>
+
+  <!-- col-11 faz com que não use a página inteira, porque no boot strap são 12 colunas quando coloca o comando ele deixa espaço na ultima coluna -->
+  <!-- m-auto faz a class fique alinhada ao centro M = margin  -->
+  <!--<nav class="navbar col-11 m-auto navbar-expand-lg bg-body-tertiary style="z-index: 999;"" "></nav>-->
+  <!-- position-fixed fixa o menu na página -->
+  <!--<nav class="navbar navbar-expand-lg col-12 position-fixed bg-body-tertiary" style="z-index: 999;"></nav>-->
+
+  <nav class="navbar navbar-expand-lg navbar-light  fixed-top py-3" id="mainNav">
+    <div class="container px-4 px-lg-5">
+      <a class="navbar-brand img-fluid col-4" href="Index.html">
+        <img src="./assets/img/Plugplay hub_azul.png" class="d-block w-50" alt="...">
+      </a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+        aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ms-auto my-2 my-lg-0">
+          <li class="nav-item"><a class="nav-link" aria-current="page" href="Index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="Integracoes.html">Integrações</a>
+          </li>
+          <li class="nav-item"><a class="nav-link" aria-current="page" href="planos.html">Planos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contato</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- masthead_2-->
+  <header class="masthead_integracao">
+    <div class="container px-4 px-lg-5 h-100">
+      <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
+        <div class="col-lg-8 align-self-end">
+          <h1 class="text-white font-weight-bold">Trabalhe menos e venda mais</h1>
+          
+        </div>
+        <div class="col-lg-8 align-self-baseline">
+          <p class="text-white mb-5">Evite erros e retrabalho, mantenha seu estoque sempre atualizado em todos os canais de venda.</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- <img class="col-12 m-auto" src="./img/api_2.jpg" class="img-fluid" alt="..."> -->
+
+
+  <!-- tirei o carosel
+    <div id="carouselExampleAutoplaying" class="carousel slide col-11 m-auto" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/Home_2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/api_2.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  
+   <br>
+   
+  -->
+
+  <!-- 
+  <section class="page-section">
+    <div class="container pt-4 px-lg-5">
+
+      <div class="row gx-4 gx-lg-4">
+        <div class="col-xl-3 col-lg-7 col-md-12 text-center">
+          <div class="mt-1">
+            <img class="img-fluid" src="./assets/img/omini.png" alt="Integrar">
+          </div>
+        </div>
+        <div class="col-xl-9 col-lg-5  col-md-12 text-center">
+          <div class="mt-1">
+            <h3 class="text-center mt-0">
+              
+              <br>
+              O consumidor esta cada vez mais disputado
+            </h3>
+            <hr>
+            <p class="text-muted mb-0">
+              O comportamento do consumidor varejista está mudando e acelerando o crescimento das vendas virtuais.
+              <br>
+              <br>
+              Se voce ainda não vende no e-commerce, chegou a hora de começar.
+              <br>
+              <br>
+              Não perca o "time" aprenda a otimizar os processos para agilizar e ampliar suas vendas virtuais.
+            </p>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  -->
+
+
+  <section class="page-section">
+
+    <div class="container px-4 px-lg-5">
+      <div class="row gx-4 gx-lg-5">
+        <div class="shadow p-2 mb-5 text-bg-dark rounded  m-auto">
+          
+          
+          <h5>
+            <i class="fa-solid fa-cart-shopping m-2" style="color: #e8eaee;"></i> 
+            Marketpaces integrados á nossa solução
+
+          </h5>
+          
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="col-lg-3 col-md-4 col-sm-6 col-6 text-center p-2">
+          <img class="img-fluid" src="./assets/img/plataformas/Dafiti.png" alt="Dafiti markteplace">
+        </div>
+
+
+        <div class="col-lg-3 col-md-4 col-sm-6 col-6 text-center p-2">
+          <img class="img-fluid" src="./assets/img/plataformas/NetShoes.png" alt="NetShoes markteplace">
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6 col-6 text-center p-2">
+          <img class="img-fluid" src="./assets/img/plataformas/zattini.jpg" alt="Zattini marketplace">
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6 col-6 text-center p-2">
+          <img class="img-fluid" src="./assets/img/plataformas/PostHaus.png" alt="PostHaus marketplace">
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6 col-6 text-center p-2">
+          <img class="img-fluid" src="./assets/img/plataformas/Tricae.png" alt="Tricae marketplace">
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6 col-6 text-center p-2">
+          <img class="img-fluid" src="./assets/img/plataformas/Kanui.png" alt="Kanui marketplace">
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+  <section class="page-section">
+
+    <div class="container px-4 px-lg-5">
+
+      <div class="row gx-4 gx-lg-5">
+        
+        <div class="shadow p-2 mb-5 text-bg-dark rounded m-auto">
+          <h5>
+          <i class="fa-solid fa-shop m-2" style="color: #f0f2f5;"></i>
+          
+           Lojas on-line integradas á nossa solução
+          
+          </h5>
+         
+         </div>
+      
+      </div>
+
+      <div class="row gx-4 gx-lg-5">
+
+        <div class="col-lg-3 col-md-4 col-sm-6 col-6  text-center p-2">
+          <img class="img-fluid" src="./assets/img/plataformas/Shoppub.png" alt="Shoppub.">
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6 col-6  text-center p-2">
+          <img class="img-fluid" src="./assets/img/plataformas/Simplo7.png" alt="Simplo7 d-loja">
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6 col-6  text-center p-2">
+          <img class="img-fluid" src="./assets/img/plataformas/Convertize.png" alt="Convertize">
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6 col-6  text-center p-2">
+          <img class="img-fluid" src="./assets/img/plataformas/Magento.png" alt="Magento 2.0">
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6 col-6  text-center p-2">
+          <img class="img-fluid" src="./assets/img/plataformas/Mercos_B2B.png" alt="MMercos B2B">
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <section class="page-section">
+    <div class="container px-4 px-lg-5">
+
+      <div class="row gx-4 gx-lg-5">
+        
+        <div class="shadow p-2 mb-5 text-bg-dark rounded m-auto">
+          <h5>
+            <i class="fa-solid fa-users m-2" style="color: #f0f2f4;"></i>
+          
+            Força de vendas Representantes
+          
+          </h5>          
+        </div>
+        
+      
+      </div>
+
+      <div class="row gx-4 gx-lg-5">
+        <div class="col-lg-3 col-md-4 col-sm-6 text-center p-2">
+          <img class="img-fluid" src="./assets/img/plataformas/Mercos.png" alt="Mercos força de venda">
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section class="page-section">
+
+    <div class="container px-4 px-lg-5">
+
+      <div class="row gx-4 gx-lg-5">
+        
+        <div class="shadow p-2 mb-5 text-bg-dark rounded col=11 m-auto">
+          <h5>          
+            <i class="fa-solid fa-computer m-2" style="color: #f4f6fb;"></i>          
+            ERP / Back Office          
+          </h5> 
+        </div>      
+      </div>
+
+      <div class="row gx-4 gx-lg-5">
+        <div class="col-lg-4 col-md-6 col-sm-6 text-center p-2">
+          <a  href="Millennium.html">
+             <img class="img-fluid" src="./assets/img/plataformas/Logo_Linx Emillenium_positivo.png" alt="e-Millennium ERP">            
+          </a>
+          
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- deixa o mouse diferente.. ver se tem outyro recurso mais simples para isto
+  <section class="page-section ">
+    
+      <div class="container px-4 px-lg-5">
+
+        <div class="row gx-4 gx-lg-5">
+          <div class="shadow p-3 mb-5 text-bg-primary rounded col=11 m-auto">
+            <h5>ERP / Back Office</h5>
+          </div>
+        </div>
+
+        <div class="row gx-4 gx-lg-5">
+          <div class="col-lg-4 col-md-6 text-center p-2">
+             
+            
+            <a class="portfolio-box" href="Index.html"
+              title="Project Name">
+              <img class="img-fluid" src="./assets/img/plataformas/Logo_Linx Emillenium_positivo.png" alt="Integrar">
+              
+            </a>
+          </div>
+        </div>
+      </div>
+    
+  </section>
+   -->
+
+ <!-- Contact este envia o e-mail -->
+ <section class="page-section text-bg-dark" id="contact">
+  <div class="container px-4 px-lg-5">
+    <div class="row gx-4 gx-lg-5 justify-content-center">
+      <div class="col-lg-8 col-xl-6 text-center">
+        <h2 class="mt-0">Vamos conversar!</h2>
+        
+        <p class="text-ligth mb-5">Em poucas palavras relate sua necessidade!</p>          
+      </div>
+    </div>
+    <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
+      <div class="col-lg-8">
+        <form id="contactForm" 
+              action="https://formsubmit.co/sac@plugplayhub.com.br" method="POST">
+          
+          
+          <div class="form-floating mb-3">
+            <input class="form-control" name="name"  id="name" type="text" placeholder="Enter your name..."
+              data-sb-validations="required" />
+            <label for="name">Nome Completo</label>
+            <div class="invalid-feedback" data-sb-feedback="name:required">Nome é necessário.</div>
+          </div>
+          
+          <div class="form-floating mb-3">
+            <input class="form-control" name="email" id="email" type="email" placeholder="name@example.com"
+              data-sb-validations="required,email" />
+            <label for="email">Email</label>
+            <div class="invalid-feedback" data-sb-feedback="email:required">Email é necessário.</div>
+            <div class="invalid-feedback" data-sb-feedback="email:email">Email invalido.</div>
+          </div>
+          
+          <div class="form-floating mb-3">
+            <input class="form-control" name="phone"  id="phone" type="tel" placeholder="(123) 456-7890"
+              data-sb-validations="required" />
+            <label for="phone">Celular</label>
+            <div class="invalid-feedback" data-sb-feedback="phone:required">Ceular é necessário.</div>
+          </div>
+          
+          <div class="form-floating mb-3">
+            <textarea class="form-control" name="message"  id="message" type="text" placeholder="Enter your message here..."
+              style="height: 10rem" data-sb-validations="required"></textarea>
+            <label for="message">Mensagem</label>
+            <div class="invalid-feedback" data-sb-feedback="message:required">Mensagem é necessária.</div>
+          </div>           
+       
+         
+          <div class="d-none" id="submitErrorMessage">
+            <div class="text-center text-danger mb-3">Error enviando mensagem!</div>
+          </div>
+          
+          <div class="d-grid">
+            <button class="btn btn-primary btn-xl" id="submitButton" type="submit" target="_blank">Enviar
+            </button>
+          </div>
+
+
+        </form>
+      </div>
+    </div>
+    <div class="row gx-4 gx-lg-5 justify-content-center">
+      <div class="col-lg-4 text-center mb-5 mb-lg-0">
+        <!--
+        <div>(16) 9 8856-4392
+          <br>
+          <br>
+
+          <a href="https://api.whatsapp.com/send/?phone=5516988564392&text=Ol%C3%A1%2C+seja+bem+vindo+a+PlugPlayhub+%2C+como+posso+ajudar%3F&type=phone_number&app_absent=0"
+            target="_blank">
+            <i class="fa-brands fa-whatsapp fa-2xl" style="color: #10c625; "></i>
+
+          </a>
+        </div>
+        -->
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Contact-->
+<!-- 
+<section class="page-section text-bg-dark" id="contact">
+  <div class="container px-4 px-lg-5">
+    <div class="row gx-4  justify-content-center">
+      <div class="col-lg-8  text-center">
+        <h2 class="mt-0">Vamos conversar!</h2>          
+        <p class="text-ligth mb-5">Em poucas palavras relate sua necessidade!</p>
+      </div>
+    </div>
+    <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
+      <div class="col-lg-8">
+        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+          
+          <div class="form-floating mb-3">
+            <input class="form-control" id="name" type="text" placeholder="Enter your name..."
+              data-sb-validations="required" />
+            <label for="name">Nome Completo</label>
+            <div class="invalid-feedback" data-sb-feedback="name:required">Nome é necessário.</div>
+          </div>
+          
+          <div class="form-floating mb-3">
+            <input class="form-control" id="email" type="email" placeholder="name@example.com"
+              data-sb-validations="required,email" />
+            <label for="email">Email</label>
+            <div class="invalid-feedback" data-sb-feedback="email:required">Email é necessário.</div>
+            <div class="invalid-feedback" data-sb-feedback="email:email">Email invalido.</div>
+          </div>
+          
+          <div class="form-floating mb-3">
+            <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890"
+              data-sb-validations="required" />
+            <label for="phone">Celular</label>
+            <div class="invalid-feedback" data-sb-feedback="phone:required">Ceular é necessário.</div>
+          </div>
+          <div class="form-floating mb-3">
+            <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..."
+              style="height: 10rem" data-sb-validations="required"></textarea>
+            <label for="message">Mensagem</label>
+            <div class="invalid-feedback" data-sb-feedback="message:required">Mensagem é necessária.</div>
+          </div>
+          
+          <div class="d-none" id="submitSuccessMessage">
+            <div class="text-center mb-3 ">
+              <div class="fw-bolder">Mensagem enviada com sucesso!</div>
+              <br />
+              
+            </div>
+          </div>
+          <div class="d-none" id="submitErrorMessage">
+            <div class="text-center text-danger mb-3">Error enviando mensagem!</div>
+          </div>
+          
+          <div class="d-grid p-4">
+            <button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Enviar
+            </button>
+          </div>
+
+
+        </form>
+      </div>
+    </div>
+    <div class="row gx-4 gx-lg-5 justify-content-center">
+      <div class="col-lg-4 text-center mb-5 mb-lg-0">
+        
+        <div>(16) 9 8856-4392
+          <br>
+          <br>
+
+          <a href="https://api.whatsapp.com/send/?phone=5516988564392&text=Ol%C3%A1%2C+seja+bem+vindo+a+PlugPlayhub+%2C+como+posso+ajudar%3F&type=phone_number&app_absent=0"
+            target="_blank">
+            <i class="fa-brands fa-whatsapp fa-2xl" style="color: #10c625; "></i>
+
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+-->
+
+
+
+</body>
+
+
+<!-- Footer-->
+<footer class="bg-light py-5">
+  <div class="container px-4 px-lg-5">
+    <div class="small text-center text-muted">Copyright &copy; 2018 - PlugPlayHub</div>
+  </div>
+</footer>
+<!-- Bootstrap core JS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- SimpleLightbox plugin JS-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
+<!-- Core theme JS-->
+<script src="js/scripts.js"></script>
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+<!-- * *                               SB Forms JS                               * *-->
+<!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+
+<script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+
+</html>
